@@ -230,7 +230,7 @@ public class HandleGridDebug : MonoBehaviour
         MarchDebug(0, 0, 0, currState);
     }
     void CreateDebugBase(){
-        currState = 181;
+        currState = 0;
         Debugging = new GameObject("Debugging");
         for (int z = 0; z < 2; z++){
             for (int y = 0; y < 2; y++){

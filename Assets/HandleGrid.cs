@@ -66,7 +66,7 @@ public class HandleGrid : MonoBehaviour
     // all 5 active 2 deactive points cases
     // o -> off
     // x -> on
-    // ambiguous case number 9              ambiguous case number 137               ambiguous case number 41
+    // ambiguous case number 246              ambiguous case number 118               ambiguous case number 214
     // x-------x                            x-------o                               x-------x
     // |       |                            |       |                               |       |
     // |   x-------o                        |   x-------o                           |   x-------o
@@ -94,8 +94,8 @@ public class HandleGrid : MonoBehaviour
     //                                      10100111 - 167
     //                                      10011101 - 157 
     //                                      11100101 - 229 
-    //                                      01011110 - 94 ok
-    //11101001
+    //                                      01011110 - 94 
+    //11110110
     public int[][][] triangulationList = new int[][][]{
         // new int[][]{e, b, a, j, g, k, j, k, c, j, c, f, f, c, d},
         new int[][]{},                                    // 00000000  HGFEDCBA
@@ -428,7 +428,7 @@ public class HandleGrid : MonoBehaviour
             valueB *= -1;
         }
         float value =  (0 - valueA) / (valueB - valueA); // interpolation
-        // float value = 0.5f;
+        // float value = 0.5f; fixed value
         return value;
     }
 
