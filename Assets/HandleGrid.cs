@@ -25,9 +25,6 @@ public class HandleGrid : MonoBehaviour
     // Texture3D texture;
 
     //interpolation
-    //http://paulbourke.net/geometry/polygonise/marchingsource.cpp
-    //https://ogrecave.github.io/ogre/api/1.10/namespace_ogre_1_1_volume.html#a91eddf9820871324597ceb2bfeacccec
-    //https://www.volume-gfx.com/volume-rendering/marching-cubes/
     // static int[2] a = {0, 2}; o ponto "a" esta entre vertice A e C
 
     // static float[] a = {0f, 0.5f, 0f};
