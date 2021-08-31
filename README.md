@@ -1,5 +1,5 @@
 # Marching Cubes
-Simple Marching Cubes algorithm, made in unity,without any "holes" caused by ambiguous cases
+Simple Marching Cubes algorithm, made in unity without any "holes" caused by ambiguous cases
 
 ![image](https://user-images.githubusercontent.com/73392575/130162656-ffaf0795-d1d6-4171-b207-cdcb7e146bc1.png)
 
